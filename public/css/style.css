@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+}
+.largeurBody{ /*Taille bloc exterieur vide*/
+    display: flex;
+    height: 1000px;
+}
+.bloc{ /*Taille bloc contenu*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 77%;
+    background: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* NAVBAR */
+.bloc{ /*Contenu navbar*/
+    display: flex;
+    height: 130px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.navigation{/*photo navbar*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.youcommunik>img{   /*div photo navbar*/
+    margin-top:40px;
+    margin-left:15px;
+}
+.liste-a-puce-nav>ul{/*liste a puce navbar*/
+    display: flex;
+    color: white;
+    margin-right: 30px;
+}
+.liste-a-puce-nav>ul>li{/*element de liste a puce navbar*/
+    list-style-type: none;
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 7px;
+}
+.liste-a-puce-nav>ul>li>div{/*nom des liste a puce navbar*/
+    font-size: 13px;
+}
+.liste-a-puce-nav>ul>li>img{/*img des liste a puce navbar*/
+    margin-bottom: 18%;
+}
+
+/* BANNIERE */
+.banniere-navbar{ /* bloc banniere */
+    display: flex;
+    background-color: #334D5C;
+    width: 100%;
+    height: 253px;
+    margin-top: -49px;
+}
+.banniere-navbar>div:first-child{/*bloc image banniere */
+    width: 33%;
+    display:flex;
+}
+.banniere-navbar>div>img{/*image banniere*/
+    margin: auto;
+}
+.banniere-navbar>div:last-child>h1{/*banniere h1*/
+    color: white;
+    margin-left: 20px;
+    margin-top: 70px;
+    font-size: 55px;
+}
+.banniere-navbar>div:last-child>h2{/*banniere h2*/
+    margin-left: 20px;
+    margin-top: -20px;
+    color: white;
+    font-size: 40px;
+}
+
+/* SECTION 1 */
+.ecolsion{ /*div section 1*/
+    border: 1px solid rgb(218, 215, 215);
+}
+.ecolsion>:first-child{ /*le container du premier titre eclosion*/
+    display: flex;
+    justify-content: center;
+}
+.ecolsion>:nth-child(2){ /*div: img+p  section1*/
+    display: flex;
+}
+.ecolsion>:nth-child(2)>div:nth-child(1){/*  div : img */
+    width: 40%;
+    text-align: center;
+}
+.ecolsion>:nth-child(2)>div:nth-child(2){/*  div : p */
+    width: 60%;
+}
+.ecolsion>:nth-child(2)>div>img{  /*img*/
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+.ecolsion>:nth-child(2)>div>p{ /*p*/
+    font-size: large;
+    margin-left: 30px;
+    width: 80%;
+}
+.divlogo{/*div logo*/
+    background-color: #EAE3D6;
+    display: flex;
+    justify-content: center;
+    height: 210px;
+}
+.ecolsion>:last-child>div>img{ /*taille des logo section 1*/
+    width: 90px;
+    height: 90px;
+}
+.descriplogo{ /*description des logo*/
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.logo1, .logo2, .logo3, .logo4{ /*div : img+div*/
+    margin-top:3% ;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.logo2>img{ /*logo2*/
+    margin-left: 19%;
+}
+.logo3>img{ /*logo3*/
+    margin-left: 15%;
+}
+.logo4>img{ /*logo4*/
+    margin-left: 13%;
+}
+
+/* SECTION 2 */
+.evolution{ /*div section 1*/
+    border: 1px solid rgb(218, 215, 215);
+}
+.evolution>:first-child{ /*le container du premier titre eclosion*/
+    display: flex;
+    justify-content: center;
+}
+.evolution>:nth-child(2){ /*div: img+p  section1*/
+    display: flex;
+}
+.evolution>:nth-child(2)>div:nth-child(1){/*  div : img */
+    width: 40%;
+    text-align: center;
+}
+.evolution>:nth-child(2)>div:nth-child(2){/*  div : p */
+    width: 60%;
+}
+.evolution>:nth-child(2)>div>img{  /*img*/
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+.evolution>:nth-child(2)>div>p{ /*p*/
+    font-size: large;
+    margin-left: 30px;
+    width: 80%;
+}
+.divlogo2{ /*  containeur des deux div logo */
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    background-color: #EAE3D6;
+}
+.premdivlogo2{/*  premiere div de logo */
+    height: 175px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.deudivlogo2{/*  deuxieme div de logo */
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo5>img, .logo6>img, .logo7>img, .logo8>img{ /*taille logo section2*/
+    width: 90px;
+    height: 90px;
+}
+.logo5, .logo6, .logo7, .logo8{ /*div des logo section 2*/
+    height: 150px;
+    width: 140px;
+    margin-top: 2%;
+    padding-top: 0.2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;
+}
+.logo9{
+    text-align: center;
+    margin-top: -2%;
+}
+.logo9>img{
+    width: 90px;
+    height: 90px;
+}
+.descriptlogo1{ /*description des logo section2*/
+    font-size: 18px;
+    margin-top: 5%;
+}
+.descriptlogo1bis{/*description du logo a part section2*/
+    font-size: 18px;
+    margin-top: 5%;
+}
+/* SECTION 3 */
+.envole{ /*div section 1*/
+    border: 1px solid rgb(218, 215, 215);
+}
+.envole>:first-child{ /*le container du premier titre envole*/
+    display: flex;
+    justify-content: center;
+}
+h3{ /*tout les titre h3*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color:#334d5c ;
+    font-size: 55px;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+}
+.envole>:nth-child(2){ /*div: img+p  section3*/
+    display: flex;
+}
+.envole>:nth-child(2)>div:nth-child(1){/*  div : img */
+    width: 40%;
+    text-align: center;
+}
+.envole>:nth-child(2)>div:nth-child(2){/*  div : p */
+    width: 60%;
+}
+.envole>:nth-child(2)>div>img{  /*img*/
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+.envole>:nth-child(2)>div>p{ /*p*/
+    font-size: large;
+    margin-left: 30px;
+    width: 80%;
+}
+.divlogo3{/*div logo*/
+    background-color: #EAE3D6;
+    display: flex;
+    justify-content: center;
+    height: 210px;
+}
+.envole>:last-child>div>img{ /*taille des logo section 3*/
+    width: 90px;
+    height: 90px;
+}
+.descriplogo2{ /*description des logo2*/
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.logo10, .logo11, .logo12, .logo13{ /*div : img+div*/
+    margin-top:3% ;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.logo10>img{ /*logo10*/
+    margin-left: 22%;
+}
+.logo11>img{ /*logo11*/
+    margin-left: 19%;
+}
+.logo12>img{ /*logo12*/
+    margin-left: 22%;
+}
+.logo13>img{ /*logo13*/
+    margin-left: 20%;
+}
