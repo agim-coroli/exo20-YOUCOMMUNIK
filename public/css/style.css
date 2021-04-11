@@ -279,3 +279,46 @@ h3{ /*tout les titre h3*/
 .logo13>img{ /*logo13*/
     margin-left: 20%;
 }
+
+footer{
+    background-color: #393a3b;
+
+}
+footer>div>div>img{
+    height: 65px;
+    width: 65px;
+}
+h4{
+    color: white;
+    margin-bottom:15%;
+    margin-top: 45px;
+    font-size:130%;
+    margin-left: 23px;
+}
+.divfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+    width: 1169px;
+}
+.divfooter>div{
+    width: 300px;
+    margin-left: 80px;
+
+}
+.divfooter>div>img{
+    margin-left: 8%;
+}
+.CGV{
+    height: 55px;
+    display: flex;
+    justify-content: flex-end;
+}
+.CGV>a{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-top: 12px;
+}
